@@ -1,0 +1,87 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: url(Gambar/bg4.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.judul {
+  font-weight: 800;
+}
+
+.form-control {
+  border: 0;
+  border-radius: 0px;
+  border-bottom: 1px solid black;
+  background-color: transparent;
+}
+
+.form-control:focus {
+  background: transparent;
+  box-shadow: none;
+  outline: none;
+  border-bottom: 1px solid black;
+}
+
+.form-control:hover {
+  background: transparent;
+  box-shadow: none;
+  outline: none;
+}
+
+.sec-2 {
+  color: grey;
+}
+
+.tmbl1 {
+  background-color: #f7d365;
+  font-weight: 800;
+  border-radius: 30px;
+  width: 70px;
+  border: 2px solid black;
+}
+
+.tmbl1:hover {
+  background-color: #66c6b8;
+}
+
+.tmbl {
+  background-color: #f7d365;
+  font-weight: 800;
+  border-radius: 30px;
+  border: 2px solid black;
+  width: 200px;
+}
+
+.tmbl:hover {
+  background-color: #66c6b8;
+}
+
+@media (max-width: 650px) {
+  .tmbl {
+    background-color: #f7d365;
+    font-weight: 800;
+    border-radius: 30px;
+    border: 2px solid black;
+    width: 137px;
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    background: url(Gambar/bgt1.png);
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+@media (max-width: 425px) {
+  body {
+    background: url(Gambar/bgm2.png);
+    background-size: cover;
+    background-position: center;
+  }
+}

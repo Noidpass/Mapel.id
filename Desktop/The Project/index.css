@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap');
+body{
+    background-color:#f9f59e;
+    overflow-x:hidden !important;
+}
+.mainForm{
+    margin-top:100px !important;
+}
+.mainForm input{
+    border:none;
+    border-bottom: 2px solid black;
+    background:transparent;
+    width:75%;
+    font-family:'Montserrat';
+}
+.mainForm input:focus{
+    outline:none;
+    box-shadow:none;
+}
+.mainForm input:active{
+    outline:none;
+    box-shadow:none;
+}
+.ctaBtn .cta1{
+    box-shadow: 1px 0.5px 0px 3px black;
+    background-color: #ff0066;
+    padding: 1px 30px !important;
+    border-radius:20px;
+    margin-bottom:10px;
+    font-size:25px !important;
+    font-family:'Montserrat';
+    font-weight:800;
+}
+.cta1 p{
+    
+}
+.hal2 img{
+    width:100px;
+    height:100px;
+}
+.icon1 .rotate{
+    transform:rotate(-3deg);
+}
+.icon1 .rotate2{
+    transform:rotate(5deg);
+}
+.icon2 .rotate3{
+    transform:rotate(-30deg);
+}
+.icon2 .rotate4{
+    transform:rotate(-20deg);
+}
+.icon1 .icons1{
+    transform:translateX(-50px);
+}
+.icon1 .icons2{
+    transform:translateX(50px);
+}
+.icon2 .icons3{
+    transform:translate(-110px, -10px);
+}
+.icon2 .icons4{
+    transform:translate(45px, 80px);
+}
+.icon{
+    position:absolute;
+    top:21.5%;
+    left:78%;
+}
+.icon:hover{
+    cursor:pointer;
+}
+@media(min-width:100px){
+    .icon{
+        top:23%;
+    }
+}

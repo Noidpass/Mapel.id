@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="https://kit.fontawesome.com/e0d92b91f2.js" crossorigin="anonymous"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <div class="container">
+    <div class="d-flex flex-column justify-content-center mainForm mx-auto mt-5">
+    <input type="text" class="input mx-auto my-auto mb-3 p-1 text-left" placeholder="No.Telepon">
+    <i id="openEY" class="fa-solid fa-eye-slash icon"></i>
+    <input id="inputid" type="email" class="input mx-auto mb-1 p-1" placeholder="Email" val="">
+    <input type="password" class="input mx-auto mb-3 p-1" placeholder="Password">
+  </div>
+  <div class="text-center ctaBtn">
+    <a type="button" class="btn cta1 px-5 pb-n5 mt-4 font-weight-bolder" href="/index.html">a Create</a>
+  </div>
+  </div>
+  <div class="container hal2 mt-5">
+    <div class="d-flex icon1 justify-content-center">
+      <div class="rotate">
+      <img src="asset/icon1.png" alt="Img source not found in local storage(404)" class="icons1">
+    </div>
+    <div class="rotate2">
+      <img src="asset/icon2.png" alt="Img source not found in local storage(404)" class="icons2">
+    </div>
+    </div>
+    <div class="d-flex icon2 justify-content-center">
+      <div class="rotate3">
+      <img src="asset/icon3.png" alt="Img source not found in local storage(404)" class="icons3">
+    </div>
+    <div class="rotate4">
+      <img src="asset/icon4.png" alt="Img source not found in local storage(404)" class="icons4">
+    </div>
+    </div>
+  </div>
+
+    
+    <!-- <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+      $(document).ready(function(){
+        $("#openEY").click(function(){
+          $("#inputid").replaceWith("<input id='inputis' type='password' class='input mx-auto mb-1 p-1' placeholder='Email' val=''>");
+          $("#openEY").replaceWith("<i id='closeEY' class='fa-solid fa-eye icon'></i>");
+        });
+        $("#closeEY").click(function(){
+          $("#inputis").replaceWith("<input id='inputid' type='email' class='input mx-auto mb-1 p-1' placeholder='Email' val=''>");
+          $("#closeEY").replaceWith("<i id='openEY' class='fa-solid fa-eye-slash icon'></i>");
+        });
+      });
+    </script>
+  </body>
+</html>
